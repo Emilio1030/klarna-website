@@ -1,54 +1,110 @@
-div.css-10trblm.e1nzilvr0 {
-  font-family: 'Montserrat', sans-serif;
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+div.css-9aoz2h.e1vs0wn30 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 div.css-1cunkzb.e10yg2by1  {
   border: 2px solid #D0B8D1;
 }
 
-div.css-1cunkzb {
-  padding: 20px, 16px, 20px, 16px; /* Adjust the padding values (top, right, bottom, left) as needed */
-}
+/* div.css-1cunkzb {
+  padding: 20px, 16px, 20px, 16px; /* Adjust the padding values (top, right, bottom, left) as needed
+} */
 
-div.css-ocqkz7.e1f1d6gn3 {
+/* div.css-ocqkz7.e1f1d6gn3 {
     color: white;
     width: auto;
     height:auto
-}
-div.css-1r6slb0.e1f1d6gn1 {
-  width: 101px;
+} */
+/* div.css-1r6slb0.e1f1d6gn1 {
+  width: 11px;
+} */
+
+div.element-container.css-14onzaw.e1f1d6gn2 {
+  font-size: 6px;
 }
 
-div.css-1r6slb0.e1f1d6gn1 {
-  width: 101px;
-}
-/* div.css-1n76uvr.e1f1d6gn0{
+div.css-1n76uvr.e1f1d6gn0{
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  text-size-adjust: 20%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* font-weight: 400;
+  line-height: 1.6; */
+  text-size-adjust: 200%;
+  /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
   -webkit-font-smoothing: auto;
-  color: white;
+  /* color: white; */
   box-sizing: border-box;
   flex: 1 1 calc(33.3333% - 1rem);
-  width: 101px;
+  /* width: 221px;
   top: 20px;
-  left: 10px;
-} */
+  left: 10px; */
+  padding-bottom: 0px;
+}
 
 
-/*
-Define classes for the icons
-div.css-1n76uvr.e1f1d6gn0 {
-    padding-top: 70px;
+/* div.css-ocqkz7.e1f1d6gn3 {
+  padding-bottom: 0.0px;
+  padding-top: 0.0px;
 } */
+
+/* Adjust layout for screens with max width of 640px */
+@media (max-width: 640px) {
+  .streamlit-container {
+      flex-direction: column;
+  }
+}
+
 
 div.css-ocqkz7.e1f1d6gn3 {
   padding-bottom: 0.0px;
+  padding-top: 0.0px;
+
+/* Adjust layout for screens with max width of 640px */
+@media (max-width: 640px) {
+  width: 500px;
+  height: 380px;
+  }
 }
 
-/* div.email-icon {
-    margin-left: 1rem;
+/* topping adjustment */
+div.block-container.css-1y4p8pa.ea3mdgi4 {
+  padding-top: 33px;
+
+/* Adjust layout for screens with max width of 640px */
+@media (max-width: 640px) {
+  /* width: 500px;
+  height: 380px; */
+  }
+}
+
+/* h3 {
+  /* text-transform: uppercase; */
+  /* font-size: 25px; */
+  /* font-weight: 500; Use an appropriate font weight value here */
+  /* color: #000000; */
+  /* text-align: left; */
+  /* letter-spacing: 0.05em; */
+  /* font-family: 'Mulish', sans-serif;
+} */
+
+/* img {
+  width: 10px;
+  height: 100px;
+
+@media (max-width: 640px) {
+  width: 10px;
+  height: 80px;
+    }
 } */
