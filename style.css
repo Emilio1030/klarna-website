@@ -13,7 +13,7 @@ div.css-9aoz2h.e1vs0wn30 {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
-  @media screen and (max-device-width:640px), screen and (max-width:640px) {
+  @media screen and (max-device-width:640px), screen and (max-width:400px) {
   width: 50%;
 }
 }
