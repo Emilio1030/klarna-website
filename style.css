@@ -19,6 +19,7 @@ div.css-9aoz2h.e1vs0wn30 {
 @media only screen /* testing against iphone xs max */
     and (device-width : 414px)
     and (device-height : 896px)
+    and (max-width: 896px)
     and (-webkit-device-pixel-ratio : 3)  {
       width: 420px;
     }
