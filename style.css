@@ -77,10 +77,10 @@ div.css-ocqkz7.e1f1d6gn3 {
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 506px) {
   width: 380px;
-  height: 350px;
+  height: 360px;
   align-content: center;
-  padding-bottom: 1.0px;
-  padding-top: 1.0px;
+  padding-bottom: 0.0px;
+  padding-top: 30px;
   }
 }
 
