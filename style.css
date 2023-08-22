@@ -35,21 +35,21 @@ div.css-1cunkzb.e10yg2by1  {
   width: 11px;
 } */
 
-div.element-container.css-14onzaw.e1f1d6gn2 {
-  font-size: 6px;
-}
+/* div.element-container.css-14onzaw.e1f1d6gn2 {
+  font-size: 1px;
+} */
 
 div.css-1n76uvr.e1f1d6gn0{
-  font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-size: 4px;
+  /* font-family: "Mulish", sans-serif; */
   /* font-weight: 400;
   line-height: 1.6; */
-  text-size-adjust: 200%;
+  text-size-adjust: 400%;
   /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
-  -webkit-font-smoothing: auto;
+  /* -webkit-font-smoothing: auto; */
   /* color: white; */
-  box-sizing: border-box;
-  flex: 1 1 calc(33.3333% - 1rem);
+  /* box-sizing: border-box; */
+  /* flex: 1 1 calc(33.3333% - 1rem); */
   /* width: 221px;
   top: 20px;
   left: 10px; */
@@ -63,11 +63,11 @@ div.css-1n76uvr.e1f1d6gn0{
 } */
 
 /* Adjust layout for screens with max width of 640px */
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .streamlit-container {
       flex-direction: column;
   }
-}
+} */
 
 
 div.css-ocqkz7.e1f1d6gn3 {
@@ -75,9 +75,9 @@ div.css-ocqkz7.e1f1d6gn3 {
   padding-top: 0.0px;
 
 /* Adjust layout for screens with max width of 640px */
-@media (max-width: 640px) {
+@media (max-width: 576px) {
   width: 500px;
-  height: 380px;
+  height: 370px;
   }
 }
 
