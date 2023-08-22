@@ -16,6 +16,12 @@ div.css-9aoz2h.e1vs0wn30 {
 @media only screen and (max-width: 640px)  {
   width: 200px;
 }
+@media only screen /* testing against iphone xs max */
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 3)  {
+      width: 200px;
+    }
 }
 
 div.css-1cunkzb.e10yg2by1  {
@@ -39,9 +45,6 @@ div.css-1cunkzb.e10yg2by1  {
   font-size: 1px;
 } */
 
-
-
-
 /* div.css-ocqkz7.e1f1d6gn3 {
   padding-bottom: 0.0px;
   padding-top: 0.0px;
@@ -54,13 +57,22 @@ div.css-1cunkzb.e10yg2by1  {
   }
 } */
 
-
 div.css-ocqkz7.e1f1d6gn3 {
   padding-bottom: 0.0px;
   padding-top: 0.0px;
 
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 506px) {
+  width: 380px;
+  height: 360px;
+  align-content: center;
+  padding-bottom: 0.0px;
+  padding-top: 30px;
+  }
+@media only screen /* testing against iphone xs max */
+  and (device-width : 414px)
+  and (device-height : 896px)
+  and (-webkit-device-pixel-ratio : 3) {
   width: 380px;
   height: 360px;
   align-content: center;
