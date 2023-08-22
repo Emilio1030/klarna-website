@@ -76,7 +76,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 506px) {
-  width: 500px;
+  width: 380px;
   height: 370px;
   align-content: center;
   }
@@ -84,7 +84,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 
 /* topping adjustment */
 div.block-container.css-1y4p8pa.ea3mdgi4 {
-  padding-top: 338px;
+  padding-top: 1px;
 
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 640px) {
