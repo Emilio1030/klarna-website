@@ -48,6 +48,9 @@ email_icon_svg = '''
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 1.55em; height: 2em; color: white;">
 <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
 '''
+klarna_image = '''
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.63 53.26"><title>Brand_assets_master</title><path d="M42,0H30.25A30,30,0,0,1,18.11,24.23l-4.65,3.48,18,24.57H46.29L29.71,29.67A41.56,41.56,0,0,0,42,0Z"/><polygon points="0 52.28 12.03 52.28 12.03 0 0 0 0 52.28 0 52.28"/><polygon points="49.79 52.26 61.12 52.26 61.12 0.01 49.79 0.01 49.79 52.26 49.79 52.26"/><path d="M160.49,15.15c-4.32,0-8.41,1.34-11.14,5V16.12H138.57V52.26h10.91v-19c0-5.5,3.68-8.19,8.12-8.19,4.76,0,7.49,2.84,7.49,8.11V52.26H175.9v-23c0-8.41-6.69-14.13-15.41-14.13Z"/><path d="M85.51,43.49a9.56,9.56,0,0,1-9.8-9.3,9.82,9.82,0,0,1,19.61,0,9.56,9.56,0,0,1-9.81,9.3Zm9.84-27.37v2.31A19.07,19.07,0,1,0,84.63,53.26,18.89,18.89,0,0,0,95.35,50v2.31h10.83V16.12Z"/><path d="M122.92,20.83V16.12H111.84V52.26h11.1V35.39c0-5.7,6.17-8.76,10.46-8.76h.12V16.12c-4.39,0-8.43,1.88-10.6,4.71Z"/><path d="M199.68,43.49a9.56,9.56,0,0,1-9.8-9.3,9.82,9.82,0,0,1,19.61,0,9.56,9.56,0,0,1-9.81,9.3Zm9.85-27.37v2.31a19.07,19.07,0,1,0,0,31.52v2.31h10.82V16.12Z"/><path d="M231.84,39.44a6.8,6.8,0,1,0,6.79,6.8,6.79,6.79,0,0,0-6.79-6.8Z"/></svg>
+'''
 
 github_link = 'https://github.com/Emilio1030'
 linkedin_link = 'https://www.linkedin.com/in/emilioaguiar/'
@@ -62,7 +65,7 @@ with st.container():
     with image_column[0]:
         # img_lottie_animation = Image.open("image/klarna_img_2.png")
         # st.image(img_lottie_animation, use_column_width=True)
-        st.image("image/klarna_img_3.svg", width=200)  # Adjust the width as needed
+        st.image(klarna_image, width=200)
         st_lottie(lottie_coding, height=350, key="coding")
 
     # center_column = st.columns(1)
