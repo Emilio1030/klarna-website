@@ -133,8 +133,8 @@ def layout(*args):
     )
 
     style_hr = styles(
-        # display="block",
-        # margin=px(8, 8, "auto", "auto"),
+        display="block",
+        margin=px(8, 8, "auto", "auto"),
         # border_style="inset",
         # border_width=px(2)
     )
