@@ -72,30 +72,30 @@ with st.container():
     # with center_column[0]:
     #     st_lottie(lottie_coding, height=350, key="coding")
 
-with st.form(key='params_for_api'):
-    customer_id_input = st.text_input('Customer ID', value="e25e41f6-c314-4f76-ac8a-a8d0185706c7")
+    with st.form(key='params_for_api'):
+        customer_id_input = st.text_input('Customer ID', value="e25e41f6-c314-4f76-ac8a-a8d0185706c7")
 
-    if st.form_submit_button(label='Make prediction'):
-        payload = {
-            'customer_ID': customer_id_input,
-            'output': 'Payer!',
-            'probability': 0.009
-        }
+        if st.form_submit_button(label='Make prediction'):
+            payload = {
+                'customer_ID': customer_id_input,
+                'output': 'Payer!',
+                'probability': 0.009
+            }
 
-        wagon_cab_api_url = 'https://emilio-klarna-v9-zsm6vqiqwq-ew.a.run.app/predict'
-        response = requests.get(wagon_cab_api_url, params=payload)
+            wagon_cab_api_url = 'https://emilio-klarna-v9-zsm6vqiqwq-ew.a.run.app/predict'
+            response = requests.get(wagon_cab_api_url, params=payload)
 
-        if response.status_code == 200:
-            st.success("Prediction successful!")
-            prediction_data = response.json()
+            if response.status_code == 200:
+                st.success("Prediction successful!")
+                prediction_data = response.json()
 
-            st.write("Prediction Result:")
-            st.write(f"Customer ID: {prediction_data['customer_ID']}")
-            st.write(f"Output: {prediction_data['output']}")
-            st.write(f"Probability: {prediction_data['probability']}")
+                st.write("Prediction Result:")
+                st.write(f"Customer ID: {prediction_data['customer_ID']}")
+                st.write(f"Output: {prediction_data['output']}")
+                st.write(f"Probability: {prediction_data['probability']}")
 
-        else:
-            st.error(f"Error: {response.status_code}")
+            else:
+                st.error(f"Error: {response.status_code}")
 
 
 # below - source: https://discuss.streamlit.io/t/st-footer/6447
