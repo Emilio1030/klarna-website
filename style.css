@@ -68,7 +68,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 506px) {
   width: 330px;
-  height: 360px;
+  height: 560px;
   align-content: center;
   padding-bottom: 0.0px;
   padding-top: 30px;
@@ -79,7 +79,7 @@ div.css-ocqkz7.e1f1d6gn3 {
   and (max-width: 896px)
   and (-webkit-device-pixel-ratio : 3) {
   width: 330px;
-  height: 370px;
+  height: 570px;
   align-content: center;
   padding-bottom: 0.0px;
   padding-top: 30px;
