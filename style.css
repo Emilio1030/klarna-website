@@ -22,7 +22,10 @@ div.css-9aoz2h.e1vs0wn30 {
     and (max-width: 896px)
     and (-webkit-device-pixel-ratio : 3)
     and (orientation: portrait) {
-      width: 20px;
+      width: 220px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 }
 
