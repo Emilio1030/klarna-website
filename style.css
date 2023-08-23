@@ -90,6 +90,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 /* it is the whole container */
 div.block-container.css-1y4p8pa.ea3mdgi4 {
   padding-top: 1px;
+  padding-bottom: 30px;
 
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 640px) {
@@ -100,7 +101,7 @@ div.block-container.css-1y4p8pa.ea3mdgi4 {
 }
 
 /* Adjust layout for screens with max width of 640px */
-/* class if the container where the image is */
+/* class of the container where the image is */
 div.css-1kyxreq.e115fcil2 {
 width: auto;
 height: auto;
@@ -145,3 +146,13 @@ div.css-1v0mbdj.e115fcil1 {
   height: 304px;
 }
 }
+
+
+/*source
+remember used webpages
+https://fonts.google.com/?preview.size=29&query=montserrat
+https://fontawesome.com/search?q=pyhton&o=r
+https://animate.style/
+https://fontawesome.com/icons
+https://www.flaticon.com/search/2?word=resume
+https://gist.github.com/hoyangtsai/10a3d22f97d7b10288b46067c8906808 */
