@@ -9,7 +9,6 @@ from PIL import Image
 
 # '''
 # # Klarna Credit Default Model
-
 # GitHub repository [Klarna](https://github.com/Emilio1030/klarna)
 # '''
 # SETTING PAGE IMAGE & NAME
@@ -58,30 +57,27 @@ github_link = 'https://github.com/Emilio1030'
 linkedin_link = 'https://www.linkedin.com/in/emilioaguiar/'
 email_link = 'mailto:junioraguiar_83@hotmail.com'
 #############
+
 # GIPHY IMAGE
 giphy_url = "https://media.giphy.com/media/N013zOWpvY7O9T2XYP/giphy.gif"
 html_code = f"""
-<a href="{giphy_url}" target="_blank">
-    <img src="{giphy_url}" width="300" alt="Giphy GIF" />
-</a>
-"""
+            <a href="{giphy_url}" target="_blank">
+                <img src="{giphy_url}" width="300" alt="Giphy GIF" />
+            </a>
+            """
 ###############
+
 # Load external CSS file
 st.markdown('<link rel="stylesheet" href="custom.css">', unsafe_allow_html=True)
+
 # Streamlit layout structure
 with st.container():
-    st.write("##")
-    # image_column, text_column = st.columns((2, 3))
+    st.write("#") # this part will set where the image/cotainer starts
     image_column = st.columns(1)
     with image_column[0]:
-        # img_lottie_animation = Image.open("image/klarna_img_2.png")
-        # st.image(img_lottie_animation, use_column_width=True)
+
         st.image(klarna_image, width=200)
         st_lottie(lottie_coding, height=350, key="coding")
-
-    # center_column = st.columns(1)
-    # with center_column[0]:
-    #     st_lottie(lottie_coding, height=350, key="coding")
 
     with st.form(key='params_for_api'):
         customer_id_input = st.text_input('Customer ID', value="e25e41f6-c314-4f76-ac8a-a8d0185706c7")
@@ -118,10 +114,8 @@ with st.container():
 def image(src_as_string, **style):
     return img(src=src_as_string, style=styles(**style))
 
-
 def link(link, text, **style):
     return a(_href=link, _target="_blank", style=styles(**style))(text)
-
 
 def layout(*args):
 
@@ -132,7 +126,6 @@ def layout(*args):
      .stApp { bottom: 80px; }
     </style>
     """
-
     style_div = styles(
         position="fixed",
         left=0,
@@ -144,7 +137,6 @@ def layout(*args):
         height="auto",
         opacity=1,
         font_family="'Mulish', sans-serif",  # Add this line
-
     )
 
     style_hr = styles(
@@ -175,7 +167,6 @@ def layout(*args):
 
     st.markdown(str(foot), unsafe_allow_html=True)
 
-
 def footer():
     myargs = [
         "Made in ",
@@ -193,7 +184,6 @@ def footer():
         a(href=email_link, target="_blank", style=styles(color="black")),
     ]
     layout(*myargs)
-
 
 if __name__ == "__main__":
     footer()
