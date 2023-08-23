@@ -87,6 +87,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 }
 
 /* topping adjustment */
+/* it is the whole container */
 div.block-container.css-1y4p8pa.ea3mdgi4 {
   padding-top: 1px;
 
@@ -130,3 +131,17 @@ div.css-1v0mbdj.e115fcil1 {
       height: 30px;
     }
   }
+
+/* style.css */
+.element-container iframe {
+  width: 100%; /* Set your desired width here */
+  height: 304px; /* Set your desired height here */
+@media only screen /* iphone X dimensions */
+  and (min-device-width: 375px)
+  and (min-device-height: 812px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+  width: 90%;
+  height: 304px;
+}
+}
