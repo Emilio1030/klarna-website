@@ -67,7 +67,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 506px) {
-  width: 380px;
+  width: 330px;
   height: 360px;
   align-content: center;
   padding-bottom: 0.0px;
@@ -78,7 +78,7 @@ div.css-ocqkz7.e1f1d6gn3 {
   and (device-height : 896px)
   and (max-width: 896px)
   and (-webkit-device-pixel-ratio : 3) {
-  width: 380px;
+  width: 330px;
   height: 370px;
   align-content: center;
   padding-bottom: 0.0px;
@@ -98,7 +98,16 @@ div.block-container.css-1y4p8pa.ea3mdgi4 {
   }
 }
 
-di.css-1kyxreq.e115fcil2 {
+div.css-1kyxreq.e115fcil2 {
 width: auto;
 height: auto;
+
+@media only screen /* testing against iphone xs max */
+  and (device-width : 414px)
+  and (device-height : 896px)
+  and (max-width: 896px)
+  and (-webkit-device-pixel-ratio : 3) {
+    width: auto;
+    height: auto;
+  }
 }
