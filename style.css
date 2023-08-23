@@ -17,10 +17,11 @@ div.css-9aoz2h.e1vs0wn30 {
   width: 200px;
 }
 @media only screen /* testing against iphone xs max */
-    and (device-width : 375px)
-    and (device-height : 812px)
-    and (max-width: 812px)
-    and (-webkit-device-pixel-ratio : 3)  {
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (max-width: 896px)
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation: portrait) {
       width: 20px;
     }
 }
@@ -71,9 +72,9 @@ div.css-ocqkz7.e1f1d6gn3 {
   padding-top: 30px;
   }
 @media only screen /* testing against iphone xs max */
-  and (device-width : 375px)
-  and (device-height : 812px)
-  and (max-width: 812px)
+  and (device-width : 414px)
+  and (device-height : 896px)
+  and (max-width: 896px)
   and (-webkit-device-pixel-ratio : 3) {
   width: 380px;
   height: 370px;
