@@ -98,6 +98,8 @@ div.block-container.css-1y4p8pa.ea3mdgi4 {
   }
 }
 
+/* Adjust layout for screens with max width of 640px */
+/* class if the container where the image is */
 div.css-1kyxreq.e115fcil2 {
 width: auto;
 height: auto;
@@ -111,3 +113,20 @@ height: auto;
     height: auto;
   }
 }
+
+
+/* Adjust layout for screens with max width of 640px */
+/* image class */
+div.css-1v0mbdj.e115fcil1 {
+  width: auto;
+  height: 30px;
+
+  @media only screen /* testing against iphone xs max */
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (max-width: 896px)
+    and (-webkit-device-pixel-ratio : 3) {
+      width: 180px;
+      height: 30px;
+    }
+  }
