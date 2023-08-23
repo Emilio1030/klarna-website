@@ -187,3 +187,6 @@ def footer():
 
 if __name__ == "__main__":
     footer()
+
+# note: every time I change the code and want to put in porduction
+# I have to go to this website: https://share.streamlit.io/ with my login
