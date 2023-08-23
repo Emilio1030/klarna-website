@@ -23,7 +23,7 @@ div.css-9aoz2h.e1vs0wn30 {
     and (orientation: portrait) {
       width: 50%;
       display: block;
-      margin-left: auto;
+      margin-left: 200px;
       margin-right: auto;
     }
 }
@@ -62,7 +62,7 @@ div.css-1cunkzb.e10yg2by1  {
 } */
 
 div.css-ocqkz7.e1f1d6gn3 {
-  padding-bottom: 0.0px;
+  padding-bottom: 5px;
   padding-top: 0.0px;
 
 /* Adjust layout for screens with max width of 640px */
@@ -89,6 +89,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 /* topping adjustment */
 div.block-container.css-1y4p8pa.ea3mdgi4 {
   padding-top: 1px;
+  padding-bottom: 1px;
 
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 640px) {
