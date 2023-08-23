@@ -65,7 +65,7 @@ with st.container():
     with image_column[0]:
         # img_lottie_animation = Image.open("image/klarna_img_2.png")
         # st.image(img_lottie_animation, use_column_width=True)
-        st.image(klarna_image, width=220)
+        st.image(klarna_image, width=400)
         st_lottie(lottie_coding, height=350, key="coding")
 
     # center_column = st.columns(1)
