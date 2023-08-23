@@ -7,12 +7,11 @@
   vertical-align: baseline;
 }
 
-
 div.css-9aoz2h.e1vs0wn30 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 30%;
 @media only screen and (max-width: 640px)  {
   width: 200px;
 }
@@ -69,7 +68,7 @@ div.css-ocqkz7.e1f1d6gn3 {
 /* Adjust layout for screens with max width of 640px */
 @media (max-width: 506px) {
   width: 380px;
-  height: 360px;
+  height: 370px;
   align-content: center;
   padding-bottom: 0.0px;
   padding-top: 30px;
@@ -80,7 +79,7 @@ div.css-ocqkz7.e1f1d6gn3 {
   and (max-width: 896px)
   and (-webkit-device-pixel-ratio : 3) {
   width: 380px;
-  height: 370px;
+  height: 380px;
   align-content: center;
   padding-bottom: 0.0px;
   padding-top: 30px;
