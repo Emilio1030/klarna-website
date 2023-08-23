@@ -72,7 +72,7 @@ st.markdown('<link rel="stylesheet" href="custom.css">', unsafe_allow_html=True)
 
 # Streamlit layout structure
 with st.container():
-    st.write("#") # this part will set where the image/cotainer starts
+    st.write("##") # this part will set where the image/cotainer starts
     image_column = st.columns(1)
     with image_column[0]:
 
