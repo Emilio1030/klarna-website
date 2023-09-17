@@ -103,7 +103,8 @@ with st.container():
                    # st.write("![Your Awsome GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWFwbHpvaWh2N3p1MWxydzBpNjdneXNzMWRqYnB5OXRvMTZqeDYxdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N013zOWpvY7O9T2XYP/giphy.gif)")
                     st.write(html_code, unsafe_allow_html=True)
                 else:
-                    st.write("![Not approved](https://media.giphy.com/media/9B5bcqtSnJq44vtsvn/giphy.gif")
+                    st.write("![Not approved](https://media.giphy.com/media/9B5bcqtSnJq44vtsvn/giphy.gif)")
+
                 # st.write(f"Output: {prediction_data['output']}")
             else:
                 st.error(f"Error: {response.status_code}")
@@ -188,5 +189,22 @@ def footer():
 if __name__ == "__main__":
     footer()
 
-# note: every time I change the code and want to put in porduction
+# note: IMPORTANT! interface: https://klarna-website-emilio1030.streamlit.app/
+
+# note: IMPORTANT! every time I change the code and want to put in porduction
 # I have to go to this website: https://share.streamlit.io/ with my login
+
+# source
+# remember used webpages
+# https://fonts.google.com/?preview.size=29&query=montserrat
+# https://fontawesome.com/search?q=pyhton&o=r & https://iconscout.com/
+# https://animate.style/
+# https://fontawesome.com/icons
+# https://www.flaticon.com/search/2?word=resume
+# https://gist.github.com/hoyangtsai/10a3d22f97d7b10288b46067c8906808
+# https://docs.klarna.com/legacy/kpm/logos/
+# https://giphy.com/gifs/klarna-reaction-approved-approve-N013zOWpvY7O9T2XYP
+# https://discuss.streamlit.io/t/st-footer/6447
+# https://discuss.streamlit.io/t/how-to-show-local-gif-image/3408/3
+# https://it.noknow.info/en/article/css/set-up-media-queries-for-various-device-widths
+# https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/
