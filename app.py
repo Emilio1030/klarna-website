@@ -190,6 +190,7 @@ if __name__ == "__main__":
     footer()
 
 # note: IMPORTANT! interface: https://klarna-website-emilio1030.streamlit.app/
+#  note: IMPORTANT!
 
 # note: IMPORTANT! every time I change the code and want to put in porduction
 # I have to go to this website: https://share.streamlit.io/ with my login
