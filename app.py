@@ -36,9 +36,9 @@ lottie_coding = load_lottieurl("https://lottie.host/cfb13562-6706-40b8-9a0a-aeb3
 with open('style.css') as f:
     # st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
     # # Load external CSS file using a relative path
-    st.markdown('<link rel="stylesheet" href="style.css">', unsafe_allow_html=True)
+    # st.markdown('<link rel="stylesheet" href="style.css">', unsafe_allow_html=True)
     # # Load external CSS file using a root-relative path
-    # st.markdown('<link rel="stylesheet" href="/style.css">', unsafe_allow_html=True)
+    st.markdown('<link rel="stylesheet" href="/style.css">', unsafe_allow_html=True)
 
 # ICON
 github_icon_svg = '''
