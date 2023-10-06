@@ -148,6 +148,12 @@ div.st-emotion-cache-1v0mbdj.e115fcil1 {
   }
 }
 
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
+
 /*source
 remember used webpages
 https://fonts.google.com/?preview.size=29&query=montserrat

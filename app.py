@@ -173,6 +173,22 @@ def layout(*args):
     st.markdown(str(foot), unsafe_allow_html=True)
 
 def footer():
+    # myargs = [
+    #     "Made in ",
+    #     image('https://avatars3.githubusercontent.com/u/45109972?s=400&v=4',
+    #           width=px(20), height=px(20)),
+    #     " by ", #"with ❤️ by ",
+    #     link("mailto:junioraguiar_83@hotmail.com", "@EmilioAguiar"),
+    #     br(),
+    #    "Further details on",
+    #     github_icon_svg,
+    #     a(href=github_link, target="_blank", style=styles(color="black")),
+    #     linkedin_icon_svg,
+    #     a(href=linkedin_link, target="_blank", style=styles(color="black")),
+    #     email_icon_svg,
+    #     a(href=email_link, target="_blank", style=styles(color="black")),
+    # ]
+
     myargs = [
         "Made in ",
         image('https://avatars3.githubusercontent.com/u/45109972?s=400&v=4',
@@ -180,13 +196,10 @@ def footer():
         " by ", #"with ❤️ by ",
         link("mailto:junioraguiar_83@hotmail.com", "@EmilioAguiar"),
         br(),
-       "Further details on",
-        github_icon_svg,
-        a(href=github_link, target="_blank", style=styles(color="black")),
-        linkedin_icon_svg,
-        a(href=linkedin_link, target="_blank", style=styles(color="black")),
-        email_icon_svg,
-        a(href=email_link, target="_blank", style=styles(color="black")),
+        "Further details on",
+        a(href=github_link, target="_blank", style=styles(color="black"))(github_icon_svg),
+        a(href=linkedin_link, target="_blank", style=styles(color="black"))(linkedin_icon_svg),
+        a(href=email_link, target="_blank", style=styles(color="black"))(email_icon_svg),
     ]
     layout(*myargs)
 
